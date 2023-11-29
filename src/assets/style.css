@@ -1,0 +1,131 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.title2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.little {
+    font-size: small;
+}
+
+.logo {
+    width: 140px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #0011ff;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.cl-nv {
+    background-color: black;
+    
+}
+.cl-nv .navbar-nav .nav-link {
+    color: white;
+    transition: color 1.0s, text-decoration 0.7s; /* Ajout de l'effet de transition */
+  }
+
+  /* Ajoutez un soulignement bleu marine et une couleur de texte or lorsqu'il est survolé */
+  .cl-nv .navbar-nav .nav-link:hover {
+    color: gold;
+    font-weight: bold;
+  }
+
+  .cl-nv .burger {
+    background-color: white;
+  }
+
+
+  /* IMAGE HEADER*/
+
+  .hero-section {
+    background-image: url('../public/Shadertoy.gif'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0; /* Ajustez la valeur de remplissage selon vos besoins */
+  }
+
+  /* Ajoutez ce style pour le texte à l'intérieur de la section */
+  .hero-text {
+    font-size: 24px;
+  }
+
+  /* Style pour la section de présentation */
+  .presentation-section {
+
+    padding: 50px;
+  }
+
+  /* Style pour la photo ovale */
+  .profile-photo {
+    border: 3px solid gold; /* Couleur de la bordure initiale */
+    border-radius: 50%; /* Pour rendre la photo ovale */
+    transition: border-color 0.6s; /* Transition pour le changement de couleur de la bordure */
+    max-width: 150px; /* Ajustez la taille de la photo selon vos besoins */
+    height: auto;
+  }
+
+  /* Changement de la couleur de la bordure au survol */
+  .profile-photo:hover {
+    border-color: blue;
+  }
+
+  /* Style pour la partie de texte à droite */
+  .text-section {
+    max-width: 600px; /* Ajustez la largeur du texte selon vos besoins */
+  }
+
+
+
+  /* PARCOURS SCOLAIRE */
+
+  .fresque {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .etape {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 300px;
+  }
+
+
+  .cursor-pointer {
+    cursor: pointer;
+}

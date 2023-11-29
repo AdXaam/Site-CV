@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Curriculum Vitae Affouard Adam</title>
+        <link rel="stylesheet" href="src/assets/style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/e674bba739.js"
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light position-sticky cl-nv">
+            <div class="container">
+                <!-- Logo à gauche -->
+                <a class="navbar-brand" href="#">
+                    <img src="src/public/431a09b20e174a50b88bad8528f7f67d.png"
+                        alt="Logo" height="90">
+                </a>
+
+                <!-- Bouton pour les petits écrans -->
+                <button class="navbar-toggler burger" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Éléments de navigation à droite -->
+                <div class="collapse navbar-collapse justify-content-end"
+                    id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#parcours-sco">Mon
+                                parcours scolaire</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#expériences">Mes
+                                expériences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Mes skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link cursor-pointer" data-bs-toggle="modal" data-bs-target="#modalLangage9">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-section">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>Développeur Web Junior</h1>
+                    <p>Salut, je m'appelle Adam</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container presentation-section">
+            <div class="row">
+                <!-- Photo ovale à gauche -->
+                <div
+                    class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center mb-3">
+                    <div class="profile-photo">
+                        <img src="src/public/photo_moi.JPG" alt="Votre Photo"
+                            style="max-width: 100%; height: auto; border-radius: 50%;">
+                    </div>
+                </div>
+
+                <!-- Texte à droite -->
+                <div
+                    class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="text-section text-center">
+                        <h2 class="title2">Qui suis je ?</h2>
+                        <p>
+                            Après avoir consacré trois ans à une licence STAPS à
+                            l'Université Lyon 1, n'ayant pas réussi à valider ma
+                            L2, j'ai ressenti le besoin de redéfinir ma
+                            trajectoire professionnelle vers le domaine de l'informatique.
+                            Ce changement a été catalysé par une transformation
+                            rapide de mon intérêt superficiel pour l'informatique
+                            en une véritable passion. </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div
+                class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 my-3">
+                <p class="text-center">
+                    Aujourd'hui, en tant que jeune développeur de 22 ans, je
+                    suis animé
+                    par la satisfaction d'avoir suivi ma passion et d'avoir
+                    trouvé ma voie dans un domaine qui me motive
+                    profondément. C'est avec enthousiasme et
+                    détermination que je m'engage à continuer d'apprendre,
+                    d'évoluer et de contribuer de manière significative
+                    à l'univers passionnant de la programmation
+                    informatique.
+                </p>
+
+            </div>
+        </div>
+        <div class="container" id="parcours-sco">
+            <h2 class="title2 text-center">Mon Parcours scolaire</h2>
+
+            <div class="row justify-content-center ">
+                <div
+                    class="etape col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <h3>Lycée Frédéric Faÿs</h3>
+                    <p class="little">Villeurbanne, 69100</p>
+                    <p>2016 - 2019</p>
+                    <p>Obtention du BAC</p>
+                </div>
+
+                <div
+                    class="etape col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
+                    <h3>Université Claude Bernard Lyon 1</h3>
+                    <p class="little">Villeurbanne, 69100</p>
+                    <p>2019 - 2022</p>
+                </div>
+
+                <div
+                    class="etape col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <h3>Formation Développeur Web & Web Mobile</h3>
+                    <p class="little">Human Booster</p>
+                    <p>2022-2023</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container mt-5" id="expériences">
+            <h2 class="title2 text-center"> Mes experiences professionnelles</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            Entraineur de football
+                        </button>
+                    </h2>
+                    <div id="collapseOne"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Depuis 2018, </strong> j'ai eu le privilège
+                            de consacrer cinq années de ma vie à l'entraînement
+                            au sein du club de l'AS Montchat à Lyon 3. Mon rôle
+                            s'est articulé autour du développement des jeunes
+                            talents, encadrant avec passion les catégories
+                            allant des U7 (~5-6 ans) aux U12 (~11 ans). Pendant
+                            cette période, mes missions ont été diversifiées et
+                            enrichissantes. J'ai conçu et animé des séances d'entraînement
+                            adaptées à chaque catégorie, stimulant ainsi la
+                            croissance sportive et personnelle des joueurs. <br>La
+                            planification et la coordination des activités
+                            sportives, le suivi individuel des progrès des
+                            joueurs, ainsi que la création d'un environnement
+                            positif et stimulant ont également été au cœur de
+                            mes responsabilités. Mon engagement a été guidé par
+                            la volonté de favoriser le développement de
+                            compétences essentielles telles que le travail d'équipe,
+                            la discipline et le fair-play.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Equipier polyvalent en restauration
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Pendant quelques mois en début 2022</strong>
+                            j'ai occupé le poste d'équipier polyvalent en
+                            restauration, une expérience qui a renforcé ma
+                            capacité à exceller dans des environnements
+                            dynamiques et exigeants. Mon rôle englobait un large
+                            éventail de responsabilités, de la prise de
+                            commandes à la préparation des repas, en passant par
+                            le service aux clients. Cette expérience m'a permis
+                            d'acquérir une compréhension approfondie des
+                            opérations en restauration, tout en développant ma
+                            résilience, ma réactivité et ma capacité à
+                            travailler harmonieusement au sein d'une équipe.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Stage Développeur Web
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Au cours de mon stage de deux mois,
+                            </strong> j'ai eu l'occasion de m'immerger dans une
+                            expérience professionnelle qui présentait des
+                            caractéristiques uniques. Bien que le stage se soit
+                            déroulé au sein d'une entreprise non spécialisée
+                            dans le développement informatique et qu'aucun
+                            référent technique ne m'ait été assigné, j'ai été
+                            confronté à une mission qui s'apparentait davantage
+                            à une prestation freelance. Cette situation m'a
+                            permis de développer ma capacité d'autonomie et de
+                            prendre en charge l'intégralité du processus de
+                            développement. Les technologies Angular et Symfony
+                            étaient au cœur de ce projet, et malgré l'absence d'encadrement
+                            technique direct, j'ai réussi à explorer et à
+                            appliquer ces technologies de manière autodidacte.
+                            <br>
+
+                            Cette expérience a été extrêmement formatrice, me
+                            permettant de repousser mes limites et d'acquérir
+                            une vision plus claire de mes compétences et de mes
+                            domaines d'amélioration. J'ai dû faire preuve d'initiative
+                            pour résoudre des problèmes complexes, tout en
+                            démontrant ma capacité à apprendre rapidement et à m'adapter
+                            à des environnements techniques variés. Ces deux
+                            mois ont non seulement renforcé mes compétences en
+                            développement, mais m'ont également offert une
+                            perspective précieuse sur mes propres capacités et
+                            sur la manière dont je peux continuer à évoluer en
+                            tant que professionnel du domaine informatique.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 mb-5" id="skills">
+            <h2 class="text-center title2 mb-4">Langages Informatiques</h2>
+            <div class="row mb-3">
+                <!-- Boutons pour ouvrir les modals -->
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modalLangage1">
+                        HTML
+                    </button>
+                </div>
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modalLangage2">
+                        CSS
+                    </button>
+                </div>
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary"
+                        data-bs-toggle="modal" data-bs-target="#modalLangage3">
+                        Javascript
+                    </button>
+                </div>
+
+            </div>
+            <div class="row mb-3">
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modalLangage4">
+                        SQL
+                    </button>
+                </div>
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary mb-3"
+                        data-bs-toggle="modal" data-bs-target="#modalLangage5">
+                        PHP
+                    </button>
+                </div>
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary"
+                        data-bs-toggle="modal" data-bs-target="#modalLangage6">
+                        Typescript
+                    </button>
+                </div>
+            </div>
+
+            <h2 class="text-center title2 mt-4">Frameworks</h2>
+
+            <div class="d-flex justify-content-around">
+                <!-- Boutons pour ouvrir les modals -->
+                <button type="button" class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#modalLangage7">
+                    Angular
+                </button>
+                <button type="button" class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#modalLangage8">
+                    Symfony
+                </button>
+
+            </div>
+            <!-- Ajoutez d'autres boutons selon les langages -->
+
+            <!-- Modals -->
+            <div class="modal fade" id="modalLangage1" tabindex="-1"
+                aria-labelledby="modalLangage1Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLangage1Label"><strong>HTML
+                                    (HyperText Markup Language)</strong></h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            HTML est le langage de balisage utilisé pour créer
+                            et structurer le contenu des pages web. Il permet de
+                            définir la structure logique d'un document en
+                            utilisant des balises pour représenter des éléments
+                            tels que titres, paragraphes, liens, images,
+                            formulaires, etc. HTML est essentiel pour la
+                            construction de pages web et constitue la base de
+                            tout développement web.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalLangage2" tabindex="-1"
+                aria-labelledby="modalLangage2Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLangage2Label"><strong>CSS
+                                    (Cascading Style Sheets) </strong></h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            CSS est un langage de feuille de style qui complète
+                            HTML en permettant la conception visuelle des pages
+                            web. Il définit la présentation, la mise en page et
+                            le style des éléments HTML. CSS permet de gérer la
+                            couleur, la police, la disposition et d'autres
+                            aspects visuels d'une page, offrant ainsi un
+                            contrôle esthétique et une expérience utilisateur
+                            optimisée.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalLangage3" tabindex="-1"
+                aria-labelledby="modalLangage3Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLangage3Label"><strong>Javascript</strong></h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            JavaScript est un langage de programmation côté
+                            client utilisé pour rendre les pages web
+                            interactives. Il permet d'ajouter des
+                            fonctionnalités dynamiques, de manipuler le contenu
+                            de la page en temps réel, de répondre aux événements
+                            utilisateur et d'interagir avec le navigateur.
+                            JavaScript est essentiel pour la création d'applications
+                            web modernes et réactives.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalLangage4" tabindex="-1"
+                aria-labelledby="modalLangage4Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLangage4Label"><strong>SQL
+                                    (Structured Query Language)</strong></h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            SQL est un langage de requête utilisé pour gérer et
+                            interagir avec des bases de données relationnelles.
+                            Il permet de créer, lire, mettre à jour et supprimer
+                            des données dans les bases de données. SQL est
+                            fondamental pour la gestion des données dans les
+                            applications web, et il offre des fonctionnalités
+                            avancées telles que la jointure de tables, la
+                            sélection de données spécifiques, et bien plus
+                            encore.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalLangage5" tabindex="-1"
+                aria-labelledby="modalLangage5Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLangage5Label"><strong>PHP</strong></h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            PHP est un langage de script côté serveur conçu pour
+                            le développement web. Il est principalement utilisé
+                            pour créer des pages web dynamiques en générant du
+                            contenu à partir du serveur. PHP peut se connecter à
+                            des bases de données, gérer des formulaires, traiter
+                            des cookies, et effectuer diverses opérations côté
+                            serveur. Il est largement utilisé dans le
+                            développement web côté serveur.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalLangage6" tabindex="-1"
+                aria-labelledby="modalLangage6Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLangage6Label"><strong>Typescript</strong></h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            TypeScript est une extension de JavaScript qui
+                            ajoute des fonctionnalités de typage statique au
+                            langage. Il permet de détecter les erreurs
+                            potentielles plus tôt dans le processus de
+                            développement en spécifiant explicitement les types
+                            de données. TypeScript est souvent utilisé dans des
+                            projets de grande envergure pour améliorer la
+                            maintenabilité du code, la productivité de l'équipe
+                            de développement et la qualité du logiciel final.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalLangage7" tabindex="-1"
+                aria-labelledby="modalLangage7Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLangage7Label"><strong>Angular</strong></h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Angular est un framework de développement web côté
+                            client basé sur TypeScript. Il est développé et
+                            maintenu par Google. Angular offre une structure
+                            robuste pour la création d'applications web
+                            dynamiques et interactives. Grâce à son architecture
+                            modulaire, Angular facilite la création de
+                            composants réutilisables, la gestion de l'état de l'application
+                            et l'intégration aisée de fonctionnalités telles que
+                            le routage et la gestion des formulaires. Il
+                            encourage également le développement en utilisant le
+                            paradigme de programmation orientée composant.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalLangage8" tabindex="-1"
+                aria-labelledby="modalLangage8Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLangage8Label"><strong>Symfony</strong></h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Symfony est un framework PHP côté serveur qui suit
+                            le modèle de conception MVC (Modèle-Vue-Contrôleur).
+                            Il offre une structure organisée pour le
+                            développement d'applications web robustes et
+                            évolutives. Symfony facilite la gestion des routes,
+                            la création de contrôleurs, et l'interaction avec la
+                            base de données grâce à un ORM (Object-Relational
+                            Mapping) appelé Doctrine. Symfony met l'accent sur
+                            la réutilisabilité du code, la modularité et la
+                            facilité de maintenance, ce qui en fait un choix
+                            populaire pour des projets web de grande envergure.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modalLangage9" tabindex="-1"
+                aria-labelledby="modalLangage9Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLangage9Label"><strong>Informations de contact</strong></h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+Affouard Adam <br>
+Numéro de téléphone : 06 95 94 22 14<br>
+Email : affouard.adam@gmail.com <br>
+<a href="src/public/CV-Adam-Affouard.pdf" target="_blank">Mon CV en PDF</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous">
+        </script>
+
+        <footer class="bg-dark text-light text-center py-3">
+            <div class="container">
+                <p>&copy; 2023 Affouard Adam. Tous droits réservés.</p>
+            </div>
+        </footer>
+    </body>
+
+</html>
